@@ -21,7 +21,7 @@ app.use("/", indexRouter);
 app.use(function (req, res, next) {
     next(createError(404));
 });
-console.log("테스트!!!");
+console.log("테스트");
 
 // error handler
 // app.use(function (err, req, res, next) {
